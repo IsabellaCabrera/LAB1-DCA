@@ -1,0 +1,73 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F9F9F9;
+}
+
+.student-card{
+    width: 300px;
+
+}
+.list-alpha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FF6392;
+ 
+}
+.name-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 5px;
+
+}
+.grades-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    gap: 5px;
+
+}
+.best-grades-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FF6392;
+ 
+}
+.mean-grade-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    color: #F5CC00;
+ 
+}
+
+.course-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FF6392;
+ 
+}
+
+.course-container{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px 0px rgba(90, 169, 230, 0.1);
+    border-radius: 5px;
+}
+.student-figure{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 1px blur cadetblue;
+    box-shadow: 0px 19px 38px 0px rgba(127, 200, 248,0.14);
+    border-radius: 5px;
+}
